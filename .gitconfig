@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[core]
+# Please adapt and uncomment the following lines:
+	user = forsigner
+	email = forsigner@gmail.com
+	excludesfile = /Users/chenzhiyi/.gitignore_global
+[push]
+	default = simple
+[user]
+	name = forsigner
+	email = 
+[credential]
+	helper = store
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

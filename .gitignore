@@ -9,6 +9,10 @@ npm-debug.log
 # atom
 .tag*
 
+# vim
+.*.swp
+*~
+
 # Mac
 .DS_Store
 

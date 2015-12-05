@@ -1,12 +1,16 @@
+# web
 bower_components
-node_modules
-coverage
-npm-debug.log
 .sass-cache/
 
+# Node
+node_modules
+npm-debug.log
 
-.tags
-.tags1
-.tags2
+# atom
+.tag#
 
+# Mac
 .DS_Store
+
+# test
+coverage

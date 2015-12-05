@@ -7,7 +7,7 @@ node_modules
 npm-debug.log
 
 # atom
-.tag#
+.tag*
 
 # Mac
 .DS_Store
